@@ -12,7 +12,7 @@ import java.time.LocalTime;
 
 @RestController
 @RequestMapping("event")
-@CrossOrigin("localhost:4200")
+@CrossOrigin("http://localhost:4200")
 public class EventController {
 
 	@GetMapping(path = "/receive", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
